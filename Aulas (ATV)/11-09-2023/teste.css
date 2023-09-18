@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+body{
+    background-image: url(img/background.png);
+    background-size: 100%;
+}
+.content-form{
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.div-logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    margin-top: 11%;
+    justify-content: center;
+    line-height: 100px;
+}
+/* nas próximas 4 linhas abaixo vc deve pegar a imagem que tem a logo pela div que envolve essa imagem e colocar a largura e altura como 100px*/
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-form h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.content-form h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 29px;
+}
+.content-form h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 9px;
+}
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    border-spacing: 1px;
+    padding: 10px;
+    margin: 14px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 15px;
+    border-radius: 5px;
+    border-spacing: 1px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+    margin-left: 9px;
+}
+.content-form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(37, 129, 200);
+    color: rgb(243, 234, 234);
+    font-size: 18px;
+    font-weight: 500;
+    cursor:pointer;
+    border: 0px;
+    margin: 25px;
+     box-shadow: rgb(56, 55, 55);
+}
+.content-form button:hover{
+    background: rgb(28, 216, 59);
+}
